@@ -6,7 +6,7 @@ import alunos from '../data/dataAlunos';
 export default function Home() {
   return (
     <div className="container">
-      <h1>Sistema de Gestão Escolar</h1>
+      <h1>Gestão Escolar</h1>
       <div className="lista-alunos">
         {alunos.map((aluno) => (
           <Aluno key={aluno.id} aluno={aluno} />
